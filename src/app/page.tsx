@@ -6,23 +6,13 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main
-      className="flex min-h-screen flex-col items-center justify-between p-12 "
+      className="flex min-h-screen flex-col items-center justify-between p-12 bg-white "
       // style={{
       //   backgroundImage: `url('/organic-farm-vegetables.jpg')`,
       //   backgroundSize: "cover",
       //   backgroundPosition: "center",
       // }}
     >
-      {/* <div
-        className="absolute inset-0 bg-banner bg-center z-0"
-        style={{
-          backgroundImage: `url('/plantBeatLogo.jpg')`,
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <div className="absolute inset-0 bg-black opacity-10 blur-lg"></div>
-      </div> */}
-
       {/* <div className="relative bg-gradient-to-br from-green-100 via-blue-200 to-green-100 rounded-lg">
         <span className="bg-green-500 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-red-500 via-blue-300 text-6xl font-bold relative z-10">
           Welcome to Plantbeat
@@ -32,8 +22,24 @@ export default function Home() {
         </span>
       </div> */}
       <div className="grid grid-cols-2">
-        <div></div>
-
+        <div>
+          {/* <div
+            className="absolute inset-0 bg-banner bg-center z-0"
+            style={{
+              backgroundImage: `url('/plantBeatLogo.jpg')`,
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <div className="absolute inset-0 bg-black opacity-10 blur-lg"></div>
+          </div> */}
+          <Image
+            className="m-10 ml-30 flex float-end justify-center"
+            src="/plantBeatLogo.jpg"
+            alt={"Logo"}
+            width={400}
+            height={200}
+          />
+        </div>
         <div className="m-10 ml-20 flex-grow text-6xl text-bolt-500 flex justify-center items-center">
           Green House Farm Management System
         </div>
