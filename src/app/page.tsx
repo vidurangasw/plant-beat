@@ -23,24 +23,17 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-10 blur-lg"></div>
       </div>
 
-      <div className="relative bg-gradient-to-br from-green-100 via-blue-200 to-green-100 rounded-lg">
+      {/* <div className="relative bg-gradient-to-br from-green-100 via-blue-200 to-green-100 rounded-lg">
         <span className="bg-green-500 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-red-500 via-blue-300 text-6xl font-bold relative z-10">
           Welcome to Plantbeat
         </span>
         <span className="absolute inset-0 text-stroke-2 text-stroke-black bg-green-500 bg-clip-text text-transparent bg-gradient-to-r from-green-500 to-red-500 via-blue-300 text-6xl font-bold">
           Welcome to Plantbeat
         </span>
-      </div>
-
-      <div className=" mt-4 bg-slate-700 caret-lime-300">
-        "Where every seed you plant grows into a bountiful harvest. Let's
-        cultivate success together!"
-      </div>
+      </div> */}
 
       <div>
-        <div
-          style={{ display: "flex", gap: "0.5rem", backgroundColor: "gray" }}
-        >
+        <div style={{ display: "flex", gap: "0.5rem" }}>
           <Link href="/graphpreview">
             <Button color="success">GH 01</Button>
           </Link>
