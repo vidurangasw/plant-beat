@@ -31,7 +31,13 @@ export default function Home() {
           Welcome to Plantbeat
         </span>
       </div> */}
-      <div></div>
+      <div className="grid grid-cols-2">
+        <div></div>
+
+        <div className="m-10 ml-20 flex-grow text-6xl text-bolt-500 flex justify-center items-center">
+          Green House Farm Management System
+        </div>
+      </div>
 
       <div>
         <div style={{ display: "flex", gap: "0.5rem" }}>

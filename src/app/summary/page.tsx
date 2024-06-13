@@ -71,30 +71,27 @@ const Summary = () => {
 
   return (
     <div className="p-3">
-      <div className="grid grid-cols-3 ">
-        <button
-          className="flex items-center justify-center w-60 h-10 bg-warning text-white rounded-md"
+      <div>
+        <Button
+          color="primary"
+          className="flex items-center justify-center w-60 h-10  text-white rounded-md"
           onClick={() => (window.location.href = "/")}
         >
-          <img
-            src="/plantBeatLogo.jpg"
-            alt="Go to Home"
-            className="w-60 h-14 rounded-50"
-          />
+          Back to Home
           {/* <span className="ml-2">Go to Home</span> */}
-        </button>
-        <div className="flex-grow text-4xl text-bolt flex justify-center items-center">
+        </Button>
+        <div className="flex-grow text-2xl text-bolt flex  items-center">
           Crop Harvest Overview
         </div>
       </div>
       <div className="flex justify-center items-center gap-3 ">
-        <Button color="primary" onClick={() => handleDataGH01(0)}>
+        <Button color="success" onClick={() => handleDataGH01(0)}>
           GH01
         </Button>
-        <Button color="primary" onClick={() => handleDataGH01(1)}>
+        <Button color="success" onClick={() => handleDataGH01(1)}>
           GH02
         </Button>
-        <Button color="primary" onClick={() => handleDataGH01(2)}>
+        <Button color="success" onClick={() => handleDataGH01(2)}>
           GH03
         </Button>
       </div>

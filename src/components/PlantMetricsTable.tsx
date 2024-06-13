@@ -39,17 +39,19 @@ const PlantMetricsTable: React.FC<PlantMetricsTableProps> = ({
     <div className="m-10 rounded-lg">
       <table
         className="min-w-full border-collapse border border-gray-800 table-fixed"
-        style={{ width: "600px" }}
+        style={{ width: "400px" }}
       >
         <thead>
           <tr>
             <th
               className="border border-gray-800 p-2 text-left"
-              style={{ width: "50%" }}
+              style={{ width: "25%" }}
             >
               Greenhouse Name
             </th>
-            <td className="border border-gray-800 p-2">{greenhouseName}</td>
+            <td className="border border-gray-800 p-2" style={{ width: "25%" }}>
+              {greenhouseName}
+            </td>
           </tr>
           <tr>
             <th className="border border-gray-800 p-2 text-left">Crop Name</th>
