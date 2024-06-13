@@ -1,5 +1,4 @@
 import { Greenhouse1, PlantMetrics } from "@/api/data";
-import { Button, Link } from "@nextui-org/react";
 import React from "react";
 
 const GreenHouseDetails: React.FC<{ GreenHouseNO: number }> = ({

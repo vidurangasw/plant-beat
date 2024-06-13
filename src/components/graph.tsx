@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { Chart, registerables } from "chart.js";
 import { PlantMetrics } from "@/api/data";
 
@@ -12,9 +12,6 @@ const Graph: React.FC<{
 }> = ({ xValues, yValues, greeanHoseNo }) => {
   const chartRef = useRef<HTMLCanvasElement | null>(null);
   const chartInstance = useRef<Chart | null>(null);
-
-  console.log(xValues);
-  console.log(yValues);
 
   useEffect(() => {
     const ctx = chartRef.current;
