@@ -23,7 +23,7 @@ export const PlantMetrics = {
   Target_Production: [7808.9, 7226.05, 3172.05],
   Target_Average_Production_Per_Plant: [5.422847222, 5.601589147, 4.7203125],
   Predicted_Avg_Production_Per_unit: ["200g", "200g", "200g"],
-  Predicted_Max_Avg_Production_from_Plant_Per_Day: [288, 258, 134.4],
+  Predicted_Max_Avg_Production_from_Plant_Per_Day: [180, 165, 110.6], // change [288, 258, 134.4]
   Predicted_Min_Avg_Production_from_Plant_Per_Day: [96, 86, 44.8],
   Predicted_Avg_Production_Per_Plant: [144, 129, 67.2],
 };
