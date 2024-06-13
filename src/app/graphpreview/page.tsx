@@ -10,7 +10,7 @@ const GraphPreview1 = () => {
   return (
     <div>
       <GreenHouseDetails GreenHouseNO={0} />
-      <div className="m-2 bg-gradient-to-br from-green-100 via-blue-200 to-green-100 mx-4 rounded-3xl">
+      <div className="m-2  mx-4 rounded-3xl">
         <div className="flex justify-between items-center"></div>
         <Graph xValues={xValues} yValues={yValues} greeanHoseNo={0} />
       </div>

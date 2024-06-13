@@ -36,7 +36,7 @@ const PlantMetricsTable: React.FC<PlantMetricsTableProps> = ({
   predictedAvgProductionPerPlantG,
 }) => {
   return (
-    <div className="m-10 bg-gradient-to-br from-green-100 via-blue-200 to-green-100 rounded-lg">
+    <div className="m-10  rounded-lg">
       <table className="min-w-full border-collapse border border-gray-800 ">
         <thead>
           <tr>

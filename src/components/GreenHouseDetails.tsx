@@ -5,7 +5,7 @@ const GreenHouseDetails: React.FC<{ GreenHouseNO: number }> = ({
   GreenHouseNO,
 }) => {
   return (
-    <div className="flex justify-between items-center bg-amber-100 ml-4 mr-4">
+    <div className="flex justify-between items-center ml-4 mr-4">
       <div className="m-2">
         <button
           className="flex items-center justify-center w-60 h-10 bg-warning text-white rounded-md"
