@@ -36,11 +36,17 @@ const PlantMetricsTable: React.FC<PlantMetricsTableProps> = ({
   predictedAvgProductionPerPlantG,
 }) => {
   return (
-    <div className="m-10  rounded-lg">
-      <table className="min-w-full border-collapse border border-gray-800 ">
+    <div className="m-10 rounded-lg">
+      <table
+        className="min-w-full border-collapse border border-gray-800 table-fixed"
+        style={{ width: "600px" }}
+      >
         <thead>
           <tr>
-            <th className="border border-gray-800 p-2 text-left">
+            <th
+              className="border border-gray-800 p-2 text-left"
+              style={{ width: "50%" }}
+            >
               Greenhouse Name
             </th>
             <td className="border border-gray-800 p-2">{greenhouseName}</td>
@@ -50,7 +56,7 @@ const PlantMetricsTable: React.FC<PlantMetricsTableProps> = ({
             <td className="border border-gray-800 p-2">{cropName}</td>
           </tr>
           <tr>
-            <th className="border border-gray-800 p-2 text-center">
+            <th className="border border-gray-800 p-2 text-center col-span-1">
               Target Expectation
             </th>
           </tr>
