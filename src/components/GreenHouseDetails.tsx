@@ -20,7 +20,7 @@ const GreenHouseDetails: React.FC<{ GreenHouseNO: number }> = ({
           {/* <span className="ml-2">Go to Home</span> */}
         </button>
       </div>
-      <div className="m-2  grid grid-cols-3">
+      <div className="m-2  grid grid-cols-3  xl:hidden">
         <div>
           <h1>Green House : {Greenhouse1.Greenhouse_Name[GreenHouseNO]}</h1>
           <h1>Crop : {Greenhouse1.Crop_Name[GreenHouseNO]}</h1>
