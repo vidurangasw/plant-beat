@@ -41,7 +41,7 @@ export default function Home() {
           />
         </div>
         <div className="justify-center flex items-center text-6xl">
-          <h1 className="">Green House Farm Management System</h1>
+          <h1 className=" font-bold ">Green House Farm Management System</h1>
         </div>
       </div>
 
