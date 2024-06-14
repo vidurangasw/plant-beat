@@ -22,7 +22,7 @@ export default function Home() {
         </span>
       </div> */}
       <div className="grid grid-cols-2">
-        <div>
+        <div className="justify-center flex items-center">
           {/* <div
             className="absolute inset-0 bg-banner bg-center z-0"
             style={{
@@ -33,15 +33,15 @@ export default function Home() {
             <div className="absolute inset-0 bg-black opacity-10 blur-lg"></div>
           </div> */}
           <Image
-            className="m-10 ml-30 flex float-end justify-center"
+            className=""
             src="/plantBeatLogo.jpg"
             alt={"Logo"}
             width={400}
             height={200}
           />
         </div>
-        <div className="m-10 ml-20 flex-grow text-6xl text-bolt-500 flex justify-center items-center">
-          Green House Farm Management System
+        <div className="justify-center flex items-center text-6xl">
+          <h1 className="">Green House Farm Management System</h1>
         </div>
       </div>
 

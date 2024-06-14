@@ -103,7 +103,7 @@ const Graph: React.FC<{
   }, [xValues, yValues]);
 
   return (
-    <div className="container">
+    <div className="">
       <canvas id="myChart" ref={chartRef}></canvas>
     </div>
   );
